@@ -1,0 +1,10 @@
+*.smi filter=lfs diff=lfs merge=lfs -text
+data/guacamol/chembl24_canon_train.smiles filter=lfs diff=lfs merge=lfs -text
+data/moses.csv filter=lfs diff=lfs merge=lfs -text
+data/guacamol.smi filter=lfs diff=lfs merge=lfs -text
+data/moses.smi filter=lfs diff=lfs merge=lfs -text
+data/guacamol/chembl_24_1_chemreps.txt.gz filter=lfs diff=lfs merge=lfs -text
+data/*.smi filter=lfs diff=lfs merge=lfs -text
+data/guacamol/*.smiles filter=lfs diff=lfs merge=lfs -text
+data/*.csv filter=lfs diff=lfs merge=lfs -text
+data/guacamol/*.gz filter=lfs diff=lfs merge=lfs -text
