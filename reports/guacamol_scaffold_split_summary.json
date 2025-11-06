@@ -1,0 +1,26 @@
+{
+  "dataset": "guacamol",
+  "split_name": "scaffold_split",
+  "generated_at": "2025-10-20T20:51:18.657109",
+  "commit": "unknown",
+  "version": "week0_1",
+  "summary": {
+    "counts": {
+      "train": 1273103,
+      "val": 159138,
+      "test": 159138
+    },
+    "coverage": {
+      "train": 0.7999998743228357,
+      "val": 0.10000006283858213,
+      "test": 0.10000006283858213
+    },
+    "scaffold_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "invalid_smiles": 0
+  },
+  "n_total": 1591379
+}

@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-10-25T18:45:00Z",
+  "git_commit": "581856a1208ba2091f145a9100180fc05a28a27a",
+  "models": [
+    {
+      "name": "planner_week6",
+      "ensemble": "03_uncertainty/ensemble.json",
+      "planner_config": "planner/api.py",
+      "seed": 1337
+    }
+  ],
+  "targets_file": "06_prospective/targets.json",
+  "notes": "Frozen prior to prospective evaluation with zero-shot conformal recalibration."
+}

@@ -1,0 +1,9 @@
+./guacamol_baselines/
+.pytest_cache/
+__pycache__/
+.venv/
+logs/
+uspto_*.onnx
+uspto_*.csv.gz
+zinc_stock.hdf5
+

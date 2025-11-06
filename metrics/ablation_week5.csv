@@ -1,0 +1,6 @@
+component,metric,with_component,reference,delta,notes,source
+planner,feasible_at_10,1.000000,0.500000,0.500000,"Planner-in-the-loop vs heuristic baseline (AiZynthFinder real run, k=10).",metrics/week2_planner_metrics_real.json
+conformal,coverage@0.90,0.903988,0.434761,0.469227,Calibrated conformal coverage compared with naive intervals on MOSES validation set.,metrics/coverage_week3.json
+shift,mmd_p_value,0.009901,,,Permutation MMD detecting covariate drift (lower is better).,metrics/shift_week4.json
+shift,bbse_mae,0.007745,,,Black-box shift estimation mean absolute error after reweighting.,metrics/shift_week4.json
+shift,sequential_false_alarm,0.045000,,,Anytime-valid monitoring false-alarm rate (target 0.05).,metrics/shift_week4.json

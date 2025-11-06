@@ -1,0 +1,19 @@
+{
+  "experiment_name": "guacamol_smiles_lstm_week01",
+  "random_seed": 7,
+  "train_smiles_path": "data/guacamol_train.smi",
+  "validation_smiles_path": "data/guacamol_valid.smi",
+  "num_generations": 30000,
+  "output_smiles_path": "outputs/guacamol_smiles_lstm/generated.smi",
+  "lstm": {
+    "embedding_size": 256,
+    "hidden_size": 512,
+    "num_layers": 3,
+    "dropout": 0.2
+  },
+  "training": {
+    "batch_size": 256,
+    "epochs": 30,
+    "learning_rate": 0.001
+  }
+}

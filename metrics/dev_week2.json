@@ -1,0 +1,48 @@
+{
+  "k": 5,
+  "feasible_at_k": 1.0,
+  "baseline_feasible_at_k": 0.0,
+  "improvement": 1.0,
+  "median_route_length": null,
+  "median_latency": 13.67902381249587,
+  "num_records": 10,
+  "oracle_stats": {
+    "aizynth": {
+      "success_rate": 0.8,
+      "avg_latency": 16.405173024802934,
+      "p95_latency": 35.78832166601205,
+      "mean_score": 0.8,
+      "total": 10,
+      "feasible": 8,
+      "ci_95": [
+        0.49016247153664183,
+        0.9433178485456247
+      ],
+      "median_route_length": null,
+      "throughput_per_minute": 3.6573829431293516
+    }
+  },
+  "oracle_details": {
+    "aizynth": {
+      "n": 10,
+      "success_rate": 0.8,
+      "median_latency": 13.67902381249587,
+      "median_search_time": 13.664763450622559,
+      "median_routes": 6.0,
+      "unsanitizable": 0
+    }
+  },
+  "baseline": {
+    "config": "config_baseline.yml",
+    "summary": {
+      "n": 10,
+      "success_rate": 0.0,
+      "median_latency": 0.15582747950975318,
+      "median_search_time": 0.15350735187530518,
+      "median_routes": 6.0,
+      "unsanitizable": 0
+    },
+    "feasible_at_k": 0.0,
+    "source": "data/moses.smi"
+  }
+}

@@ -1,0 +1,28 @@
+# AiZynthFinder baseline configuration with reduced search budget
+
+search:
+  algorithm: mcts
+  algorithm_config:
+    C: 1.2
+    use_prior: true
+    prune_cycles_in_search: true
+    search_rewards: ["state score"]
+  max_transforms: 5
+  iteration_limit: 64
+  time_limit: 60
+  return_first: false
+  exclude_target_from_stock: true
+
+expansion:
+  uspto_full:
+    - ./uspto_model.onnx
+    - ./uspto_templates.csv.gz
+
+filter:
+  uspto_quick:
+    type: quick-filter
+    model: ./uspto_filter_model.onnx
+    filter_cutoff: 0.15
+
+stock:
+  zinc_full: ./zinc_stock.hdf5

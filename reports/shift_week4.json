@@ -1,0 +1,30 @@
+{
+  "covariate_shift": {
+    "mmd_stat": 0.023735609227139114,
+    "p_value": 0.009900990099009901,
+    "source_size": 9000,
+    "target_size": 1651,
+    "length_effect": 0.8253326416015625
+  },
+  "label_shift": {
+    "true_priors": [
+      0.3,
+      0.7
+    ],
+    "estimated_priors": [
+      0.30496658743886806,
+      0.6894770498637365
+    ],
+    "weights": [
+      0.6322735054019379,
+      1.3318938503484927
+    ],
+    "mae": 0.007744768787565776
+  },
+  "sequential_monitoring": {
+    "false_alarm_rate": 0.045,
+    "avg_time_null": 195.15,
+    "detection_power": 1.0,
+    "avg_time_shift": 52.475
+  }
+}

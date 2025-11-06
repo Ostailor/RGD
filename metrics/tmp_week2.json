@@ -1,0 +1,39 @@
+{
+  "k": 3,
+  "feasible_at_k": 1.0,
+  "baseline_feasible_at_k": 0.0,
+  "improvement": 1.0,
+  "median_route_length": 3.0,
+  "median_latency": 7.882240375000038,
+  "num_records": 10,
+  "oracle_stats": {
+    "askcos": {
+      "success_rate": 1.0,
+      "avg_latency": 0.36825613360000486,
+      "p95_latency": 1.5948900000000208,
+      "mean_score": 0.9591999999999999,
+      "total": 5,
+      "feasible": 5,
+      "ci_95": [
+        0.5655175352168254,
+        1.0
+      ],
+      "median_route_length": 3.0,
+      "throughput_per_minute": 162.93007644828867
+    },
+    "aizynth": {
+      "success_rate": 1.0,
+      "avg_latency": 19.220647191599994,
+      "p95_latency": 33.97340316699996,
+      "mean_score": 1.0,
+      "total": 5,
+      "feasible": 5,
+      "ci_95": [
+        0.5655175352168254,
+        1.0
+      ],
+      "median_route_length": null,
+      "throughput_per_minute": 3.1216430644552813
+    }
+  }
+}

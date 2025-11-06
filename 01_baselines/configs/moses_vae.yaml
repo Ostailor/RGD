@@ -1,0 +1,27 @@
+# Minimal MOSES VAE configuration for Week 0–1 reproduction.
+# Source: Polykovskiy et al., MOSES (2018).
+
+experiment:
+  name: "moses_vae_week01"
+  seed: 13
+  logdir: "outputs/moses_vae/logs"
+  device: "cuda"
+
+model:
+  type: "vae"
+  vocab: "outputs/moses_vae/vocab.json"
+  hidden_size: 512
+  latent_size: 128
+  depth: 2
+
+training:
+  epochs: 30
+  batch_size: 256
+  learning_rate: 0.0005
+  clip_grad: 5.0
+  train_smiles: "data/moses_train.smi"
+  valid_smiles: "data/moses_valid.smi"
+
+generation:
+  num_samples: 30000
+  output_smiles: "outputs/moses_vae/generated.smi"

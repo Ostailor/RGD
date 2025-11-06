@@ -1,0 +1,52 @@
+{
+  "dataset": "moses",
+  "conformal": [
+    {
+      "target": 0.5,
+      "coverage": 0.5022156573116692,
+      "interval_width": 0.3955659441996359
+    },
+    {
+      "target": 0.7,
+      "coverage": 0.6957163958641064,
+      "interval_width": 0.6760861343524471
+    },
+    {
+      "target": 0.8,
+      "coverage": 0.8030526834071886,
+      "interval_width": 0.7724624872207642
+    },
+    {
+      "target": 0.9,
+      "coverage": 0.9039881831610044,
+      "interval_width": 0.8625266551971436
+    },
+    {
+      "target": 0.95,
+      "coverage": 0.9443623830625307,
+      "interval_width": 0.9185735306467112
+    }
+  ],
+  "naive": [
+    {
+      "target": 0.5,
+      "coverage": 0.22796651895617923
+    },
+    {
+      "target": 0.7,
+      "coverage": 0.2816346627277203
+    },
+    {
+      "target": 0.8,
+      "coverage": 0.34268833087149186
+    },
+    {
+      "target": 0.9,
+      "coverage": 0.4347612013786312
+    },
+    {
+      "target": 0.95,
+      "coverage": 0.4948301329394387
+    }
+  ]
+}

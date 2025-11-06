@@ -1,0 +1,35 @@
+{
+  "dataset": "guacamol",
+  "reference": "data/guacamol.smi",
+  "generated": "outputs/guacamol_smiles_lstm/generated.smi",
+  "metrics": {
+    "validity": {
+      "valid_fraction": 0.9602666666666667,
+      "num_valid": 28808,
+      "num_invalid": 1192,
+      "invalid_examples": [
+        "COc1ccc2nc3cc(Cl)ccc3c(NCCCN(CCCNc3c4ccc(Cl)cc4nc4ccc(OC)cc34)CC3OC(C)(C)OC3C3OC(=O)c4c3cc(OC)c(OC)c3O",
+        "O=C1C=C(c2ccc3ssnc3c2)CCN1",
+        "CN1CCN(c2cc(-c3ccc4ccc5ccc(-c6cn(C7CCC7)nn6)cc5c4)nc3c(=O)[nH]2)CC1",
+        "Cc1ccc(Oc2ccc(NS(C)(=O)=O)cc3CN2CCCN(C)CC2)cc1",
+        "CCC1OC(=O)CC(O)CC(C)C(O)C(C)C(OC2OC(C)CC(N(C)C)C2O)C(C)(OC)CC(C)C(=O)C(C)C2N(c3ccc(C#N)c(C(F)(F)F)c3",
+        "COc1cc2c(cc1OCCCN1CCN(CCOc3ccc4c(c3)c([N+](=O)[O-])c3c3C=CC(C)(O)C4)C(=O)C1)CCC(=O)N2",
+        "COC(=O)c1c(NC(C)=O)sc(=Cc2c(C)nn(C)c2C)c1O",
+        "O=C(NCC#Cc1ccc2ncc3ncc(C=C4N=C(O)N=C4O)c(F)c3c2)c1",
+        "COc1ccc2c(c1)[n+]([N-])c(O)nn2C(C)=O",
+        "O=C(O)C(=Cc1ccc(Nc2ccc3ccccc3c2)cc1)NC(=O)C1CCC(N2C(=O)CClC(C(=O)C3CCCCC3)C2=O)=N1"
+      ]
+    },
+    "uniqueness": {
+      "unique_fraction": 0.9982990835878922,
+      "num_unique": 28759,
+      "num_total": 28808
+    },
+    "novelty": {
+      "novel_fraction": 0.9115407350742376,
+      "num_novel": 26215
+    },
+    "frechet_descriptor_distance": 36.01556358201803
+  },
+  "comment": "Baseline Week0-1 metrics; refer to logs for training provenance."
+}

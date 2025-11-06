@@ -1,0 +1,24 @@
+{
+  "dataset": "moses",
+  "reference": "data/moses.smi",
+  "generated": "outputs/moses_vae/generated.smi",
+  "metrics": {
+    "validity": {
+      "valid_fraction": 1.0,
+      "num_valid": 499,
+      "num_invalid": 0,
+      "invalid_examples": []
+    },
+    "uniqueness": {
+      "unique_fraction": 1.0,
+      "num_unique": 499,
+      "num_total": 499
+    },
+    "novelty": {
+      "novel_fraction": 0.0,
+      "num_novel": 0
+    },
+    "frechet_descriptor_distance": 319.78685702337543
+  },
+  "comment": "Baseline Week0-1 metrics; refer to logs for training provenance."
+}

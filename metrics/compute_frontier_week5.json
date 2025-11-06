@@ -1,0 +1,32 @@
+[
+  {
+    "run": "dev",
+    "log_path": "logs/dev_week2.log",
+    "molecules": 90,
+    "feasible": 79,
+    "success_rate": 0.8777777777777778,
+    "total_latency_seconds": 1663.06,
+    "median_latency_seconds": 15.8245,
+    "mean_routes": 7.844444444444444
+  },
+  {
+    "run": "baseline",
+    "log_path": "logs/aizynth_week2_baseline.log",
+    "molecules": 320,
+    "feasible": 245,
+    "success_rate": 0.765625,
+    "total_latency_seconds": 2872.2870000000003,
+    "median_latency_seconds": 7.532,
+    "mean_routes": 7.99375
+  },
+  {
+    "run": "full",
+    "log_path": "logs/aizynth_week2.log",
+    "molecules": 320,
+    "feasible": 263,
+    "success_rate": 0.821875,
+    "total_latency_seconds": 19906.038,
+    "median_latency_seconds": 52.578,
+    "mean_routes": 8.70625
+  }
+]

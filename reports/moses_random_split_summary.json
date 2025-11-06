@@ -1,0 +1,26 @@
+{
+  "dataset": "moses",
+  "split_name": "random_split",
+  "generated_at": "2025-10-25T17:25:38.870699",
+  "commit": "unknown",
+  "version": "week0_1",
+  "summary": {
+    "counts": {
+      "train": 1549569,
+      "test": 193697,
+      "val": 193696
+    },
+    "coverage": {
+      "train": 0.7999996902365664,
+      "test": 0.10000041301791156,
+      "val": 0.09999989674552211
+    },
+    "scaffold_overlap": {
+      "train_val": 53866,
+      "train_test": 53520,
+      "val_test": 25799
+    },
+    "invalid_smiles": 0
+  },
+  "n_total": 1936962
+}

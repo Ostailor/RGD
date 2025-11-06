@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-10-31T20:33:22.059612Z",
+  "k": 10,
+  "n_targets": 25,
+  "askcos": {
+    "feasible_at_k": 1.0,
+    "baseline_feasible_at_k": 0.28,
+    "improvement": 0.72,
+    "median_latency": 0.19355370799894445,
+    "askcos_success": 0.68,
+    "askcos_latency": 0.8840012684400427,
+    "aizynth_success": null,
+    "aizynth_latency": null
+  },
+  "aizynth": {
+    "feasible_at_k": 1.0,
+    "baseline_feasible_at_k": 0.28,
+    "improvement": 0.72,
+    "median_latency": 10.537148292001802,
+    "askcos_success": null,
+    "askcos_latency": null,
+    "aizynth_success": 0.96,
+    "aizynth_latency": 11.017988265079913
+  },
+  "cross_oracle_drop": 0.0,
+  "coverage": {
+    "target": 0.9,
+    "achieved": 0.9039881831610044,
+    "interval_width": 0.8625266551971436,
+    "source": "metrics/coverage_week3.json"
+  },
+  "latency_budget_seconds": 70,
+  "notes": "AiZynthFinder results are empirical; ASKCOS remains mocked pending deployment. Coverage imported from Week 3 conformal evaluation."
+}

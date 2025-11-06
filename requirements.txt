@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+rdkit-pypi>=2022.9.5
+pytest>=7.4
+requests>=2.31
+guacamol>=0.5
+matplotlib>=3.8

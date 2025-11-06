@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-10-31T20:35:26Z",
+  "hostname": "Oms-MacBook-Air-2.local",
+  "artifacts": [
+    {
+      "path": "metrics/week2_planner_metrics_real.json",
+      "sha256": "761562827c189c66c90a2c44a832fe82cccfc4518715aa90a15b6349d58ab5e6",
+      "size_bytes": 1158,
+      "modified": 1761901584.5208423
+    },
+    {
+      "path": "metrics/compute_frontier_week5.json",
+      "sha256": "d33f9e2bf3670fc597b05ec1126e7439875c61a90968b1df6f8f455284a903b5",
+      "size_bytes": 779,
+      "modified": 1761942397.4498098
+    },
+    {
+      "path": "metrics/ablation_week5.csv",
+      "sha256": "da09fbb5f1007a72b28e4bf983175444a29348f72b8246089c6e5180f944445b",
+      "size_bytes": 751,
+      "modified": 1761942409.0644023
+    },
+    {
+      "path": "metrics/shift_week4.json",
+      "sha256": "22f3e59af6fb68d27ab41354247d7ac6728c1c7e6a83eb00eaa2bfadbffd4d71",
+      "size_bytes": 611,
+      "modified": 1761866547.4128928
+    },
+    {
+      "path": "metrics/moses_vae_week1.json",
+      "sha256": "b3379683b149f908bd8be24cc9aeaa1f15a9169ad286731225805f1e6859bbe6",
+      "size_bytes": 572,
+      "modified": 1761865164.6886206
+    },
+    {
+      "path": "metrics/guacamol_week1.json",
+      "sha256": "946cf8eb245945151911cb8381669ef5d3091259e7be42e1551315de8128a287",
+      "size_bytes": 1408,
+      "modified": 1761866330.7969441
+    },
+    {
+      "path": "metrics/calibration_table.csv",
+      "sha256": "d79179c983ee9ca2fbaf7f2031ef25b4960528cd010c940b4a67d8dff2c56d23",
+      "size_bytes": 150,
+      "modified": 1761866490.7888465
+    },
+    {
+      "path": "metrics/coverage_week3.json",
+      "sha256": "b5f627c09c818e994698756261e8f81169a33b71ce1ba657dea500d6477f2638",
+      "size_bytes": 996,
+      "modified": 1761866490.7890582
+    },
+    {
+      "path": "06_prospective/results.json",
+      "sha256": "afa0d782706c067bf6d708de989698ee3c22913b6c88eb975090c278f6f8be91",
+      "size_bytes": 997,
+      "modified": 1761942802.060224
+    },
+    {
+      "path": "figures/week3_reliability.png",
+      "sha256": "79fbd504bc1d37303784ec572510433eddfcb34e3fa2acbb54a7c4d8114e77f6",
+      "size_bytes": 74772,
+      "modified": 1761866490.996693
+    },
+    {
+      "path": "figures/week5_compute_frontier.png",
+      "sha256": "43f7d80ac90e444eb52c420f48225c5f1f6b2ba326164f8135e69f53b161e0db",
+      "size_bytes": 65613,
+      "modified": 1761942397.6736653
+    },
+    {
+      "path": "figures/week5_ablation.png",
+      "sha256": "32279372484db4ce6da72639a73956f0ea4412acdd88dcc5c881a06453aa1739",
+      "size_bytes": 35971,
+      "modified": 1761942409.224777
+    },
+    {
+      "path": "figures/week6_summary.png",
+      "sha256": "9e525dd1170f32369af90156c07c5ee45622aaa3f33be1bcae1a4730e6fa0c74",
+      "size_bytes": 110800,
+      "modified": 1761942802.0591981
+    },
+    {
+      "path": "logs/aizynth_week2.log",
+      "sha256": "80257df95efe16164a05849e3f3b9abeccf994b60869fb0642eb934f2ab228e1",
+      "size_bytes": 26790,
+      "modified": 1761901584.4289181
+    }
+  ]
+}
